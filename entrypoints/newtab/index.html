@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Tab</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <output id="count" aria-live="polite">0</output>
+      <div class="controls">
+        <button id="dec" type="button" aria-label="Decrement">&minus;</button>
+        <button id="inc" type="button" aria-label="Increment">+</button>
+      </div>
+      <button id="reset" type="button" class="reset">reset</button>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
